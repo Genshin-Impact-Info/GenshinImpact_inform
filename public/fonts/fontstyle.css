@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'HaesuB';
+    src: url('/public/fonts/해수체B.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'HaesuL';
+    src: url('/public/fonts/해수체L.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'HaesuM';
+    src: url('/public/fonts/해수체M.ttf') format('ttf');
+  }
+@font-face {
+    font-family: "NexaBold";
+    src: url('/public/fonts/NexaDemo-Bold.otf') format('opentype');
+  }

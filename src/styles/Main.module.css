@@ -1,0 +1,9 @@
+@media all and (min-width:769px) {
+    .mainpage {
+        width: 100%;
+    }
+    .mainbg {
+        width: 100%;
+        height: 120%;
+    }
+}
