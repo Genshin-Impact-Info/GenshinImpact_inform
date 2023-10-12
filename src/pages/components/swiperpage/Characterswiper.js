@@ -5,7 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { useEffect, useState } from 'react';
 import 'swiper/swiper-bundle.css';
+import { useRouter } from 'next/router';
 export default function CharacterSwiper(props) {
+    const router = useRouter();
     const [jsonData, setJsonData] = useState([]);
     const [open, setOpen] = useState(false);
     const [elemental, setElemental] = useState();
@@ -18,7 +20,10 @@ export default function CharacterSwiper(props) {
         console.log(open)
     }, [props.chdata, props.elemental]);
     function detailpage(value) {
-        alert('이건 아직 안 만들었다.')
+        router.push({
+            pathname: "/components/characterdetail/Detail",
+            query: { id: value, element: elemental }
+        });
     }
     return (
         <>
@@ -40,7 +45,7 @@ export default function CharacterSwiper(props) {
                                         <div className={styles.characterinfo}>
                                             <p className={styles.charactername}>{item.name}</p>
                                             <p className={styles.charactertext}>{item.text}</p>
-                                            
+
                                         </div>
                                         <img className={styles.characterdetail} src={'/images/etc/morebutton.png'} onClick={() => detailpage(item.id)}></img>
                                     </div>
