@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useRouter } from 'next/router';
 import axios from "axios";
 import Headers from "@/app/Header";
-import styles from '@/styles/components/characterdetail/Detail.module.css';
+import styles from '../../../styles/components/characterdetail/Detail.module.css';
 export default function Detail(props) {
     const [elementals, setElementals] = useState();
     const [chid, setChid] = useState();
