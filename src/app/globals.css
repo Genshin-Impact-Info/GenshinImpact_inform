@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Nexa';
+  font-family: Nexa, Jamsil;
 }
 
 a {
@@ -29,4 +29,7 @@ a {
   font-style: normal;
   src: url('/fonts/NexaDemo-Bold.otf') format('opentype');
 }
-
+@font-face {
+  font-family: 'Jamsil'; 
+  src: url('/fonts/The Jamsil OTF 4 Medium.otf') format('opentype');
+}

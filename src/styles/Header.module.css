@@ -2,40 +2,33 @@
 /*데스크탑, PC크기*/
 @media all and (min-width:769px) {
     .coloring {
-        position: fixed;
-        width: 100%;
-        height: 10%;
-        
-        background-color: white;   
-        
-        opacity: 80%; 
-    }
-    .header {
-        position: fixed;
         display: flex;
         align-items: center;
-        margin-left: 1rem;
-        margin-top: 0.5rem;
+        position: fixed;
+        width: 100%;
+        height: 8.5%;
+        background-color: white;
+        z-index: 999999;
     }
 
     .logo {
-        width: 10rem;
+        cursor: pointer;
+        width: 7%;
+        margin-left: 13rem;
     }
 
     .selectmenu {
         display: flex;
         list-style: none;
-        cursor: pointer;
         margin: 0;
         margin-left: 5rem;
-        padding-top: 10px;
     }
 
     .movemenu {
-        width: 30%;
+        width: 50%;
         transition: all .3s ease;
-        margin-left: 3rem;
-        font-size: 1.5rem;
+        margin-left: 4rem;
+        font-size: 1.1rem;
         display: inline;
         cursor: pointer;
         text-align: center;
@@ -63,11 +56,7 @@
     .movemenu::after {
         display: block;
         /*a요소를 블록 요소라고 선언*/
-        width: 100px;
-        /*카테고리 메뉴 밑줄의 크기를 동일하게 주기 위해 width 설정*/
-        /*혹시 동일하지 않길 바란다면 width 삭제*/
         content: '';
-        margin-top: 7px;
         border-bottom: solid 3px black;
         transform: scaleX(0);
         /*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/

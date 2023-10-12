@@ -1,0 +1,177 @@
+.charactermain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.selectelement {
+    width: 8%;
+    height: 70%;
+    margin-right: 11vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.selectedelements {
+    align-items: center;
+    width: 45%;
+    margin-top: 4vh;
+    cursor: pointer;
+    margin-left: 7vw;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.5); 
+}
+.elements { 
+    align-items: center;
+    width: 45%;
+    margin-top: 4vh;
+    cursor: pointer;
+    margin-left: 7vw;
+}
+.shadowtext {
+    display: hidden;
+    visibility:hidden;
+}
+.swipercontainer {
+    display: flex;
+    width: 90%;
+    z-index: 3;
+    margin: 2rem;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 0.7);
+}
+.characterbox {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    padding: 3rem;
+    padding-top: 0;
+};
+.cliwolbackground {
+    z-index: 3;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 90%; 
+    height: 70vh;
+    border-radius: 10px;
+    background-image: url('/images/country/Liwol.png');
+    opacity: 70%;
+    background-size: cover;
+    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
+}
+.cinazumabackground {
+    z-index: 3;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 90%; 
+    height: 70vh;
+    border-radius: 10px;
+    background-image: url('/images/country/Inazuma.png');
+    opacity: 70%;
+    background-size: cover;
+    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
+}
+.csumerubackground {
+    z-index: 3;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 90%; 
+    height: 70vh;
+    border-radius: 10px;
+    background-image: url('/images/country/Sumeru.png');
+    opacity: 70%;
+    background-size: cover;
+    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
+}
+.cpontainbackground {
+    z-index: 3;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 90%; 
+    height: 70vh;
+    border-radius: 10px;
+    background-image: url('/images/country/Pontain.png');
+    opacity: 70%;
+    background-size: cover;
+    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
+}
+.somenail {
+    width: 50%;
+}
+.characterimgbox {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.characterinfo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 2rem;
+}
+.charactername {
+    font-size: 3.5vw;
+    color: white;
+    filter: drop-shadow(#000000 0px 4px 4px);
+}
+.characterimg {
+    width: auto;
+    height: 70%;
+    padding-right: 3rem;
+}
+.charactertext {
+    font-size: 2.5vw;
+    color: white;
+    margin-top: -2rem;
+    filter: drop-shadow(#000000 0px 4px 4px);
+}
+
+@media (min-width:0px) {
+    .characterdetail {
+        position: fixed;
+        height: 4rem;
+        margin-left: 70%;
+        margin-top: 65vh;
+        cursor: pointer;
+        filter: drop-shadow(#222222 0px 0px 10px);
+    }
+}
+
+@media (min-width:960px) {
+    .characterdetail {
+        position: fixed;
+        height: 4rem;
+        margin-left: 70%;
+        margin-top: 65vh;
+        cursor: pointer;
+        filter: drop-shadow(#222222 0px 0px 10px);
+    }
+}
+
+
+@media (min-width:1290px) {
+    .characterdetail {
+        position: fixed;
+        height: 5rem;
+        margin-left: 73%;
+        margin-top: 63vh;
+        cursor: pointer;
+        filter: drop-shadow(#222222 0px 0px 10px);
+    }
+}
+
+
+@media (min-width:1590px) {
+    .characterdetail {
+        position: fixed;
+        height: 6rem;
+        margin-left: 74%;
+        margin-top: 60vh;
+        cursor: pointer;
+        filter: drop-shadow(#222222 0px 0px 10px);
+    }
+}
+

@@ -1,9 +1,15 @@
-import styles from '@/styles/Main.module.css'
+import styles from '../styles/Main.module.css'
 import '../app/globals.css';
-export default function Main() {
+import Headers from '@/app/Header';
+export default function MainPage() {
     return (
-        <div className={styles.mainpage}>
-            <img src="/images/main/background.webp" className={styles.mainbg}></img>
-        </div>
+        <>
+            <Headers/>
+            <div className={styles.mainpage}>
+                <div className={styles.mainbg}>
+                    <img src="/images/main/maintext.png" className={styles.maintextbg}></img>
+                </div>
+            </div>
+        </>
     )
 }
