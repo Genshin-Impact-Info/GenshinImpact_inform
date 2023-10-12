@@ -2,6 +2,7 @@ import Headers from '@/app/Header';
 import styles from '../../styles/components/Character.module.css';
 import { useEffect, useState } from 'react';
 import CharacterSwiper from './swiperpage/Characterswiper';
+import axios from 'axios';
 
 export default function Character() {
     const [loadpage, setLoadpage] = useState('Pyro');
@@ -9,13 +10,13 @@ export default function Character() {
     const [judge, setJudge] = useState(0);
     function getcharacters(value) {
         setLoadpage(value);
-        fetch('/datas/Genshin_Character_info.json')
-            .then((response) => response.json())
-            .then((data) => {
+        axios.get('https://genshin-impact-info.vercel.app/datas/GenShin_Character_info.json')
+            .then((response) => {
+                const data = response.data;
                 for (let i = 0; i <= 6; i++) {
                     if (data.elemental[i].name == value) {
                         setChardata(data.elemental[i].characters);
-                        console.log(chardata)
+                        console.log(chardata);
                         break;
                     }
                 }
@@ -42,7 +43,7 @@ export default function Character() {
                     <img src="/images/element/Element_Geo.svg" className={loadpage == 'Geo' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('Geo')}></img>
                 </div>
                 <>
-                    <CharacterSwiper chdata={chardata} elemental={loadpage}/>
+                    <CharacterSwiper chdata={chardata} elemental={loadpage} />
                 </>
             </div>
         </>
