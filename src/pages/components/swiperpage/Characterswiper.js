@@ -24,6 +24,7 @@ export default function CharacterSwiper(props) {
             pathname: "/components/characterdetail/Detail",
             query: { id: value, element: elemental }
         });
+        console.log(value, elemental);
     }
     return (
         <>
@@ -52,7 +53,7 @@ export default function CharacterSwiper(props) {
                                 </div>
                             </SwiperSlide>
                         ))
-                    }
+                    }x
                 </Swiper>
                 : null}
         </>

@@ -1,37 +1,20 @@
 import { useEffect, useState } from "react"
-import { useRouter } from 'next/router';
 import axios from "axios";
 import Headers from "@/app/Header";
 import styles from '../../../styles/components/characterdetail/Detail.module.css';
 import '@/app/globals.css';
 
 export default function Detail(props) {
-    const [elementals, setElementals] = useState();
-    const [chid, setChid] = useState();
     const [characterdetail, setCharacterdetail] = useState([]);
-    const router = useRouter();
-    const { query } = router;
     useEffect(() => {
-        setElementals(query.element)
-        setChid(query.id)
-        // axios.get('/datas/GenShin_Character_info.json')
-            axios.get('https://genshin-impact-info.vercel.app/datas/GenShin_Character_info.json')
+        axios.get(`https://pinnate-leeward-legume.glitch.me/genshinAPI/Character_info/view?ele=${props.element}&id=${props.id}`)
             .then((response) => {
-                const data = response.data;
-                for (let i = 0; i <= 6; i++) {
-                    if (data.elemental[i].name == elementals) {
-                        for (let j = 0; j <= data.elemental[i].characters.length; j++) {
-                            if (data.elemental[i].characters[j].id == chid) {
-                                setCharacterdetail(data.elemental[i].characters[j])
-                                console.log(characterdetail);
-                                break;
-                            }
-                        }
-                    }
-                }
+                const Arraydata = response.data;
+                setCharacterdetail(Arraydata)
+                console.log(characterdetail);
             })
             .catch((error) => console.error('Error fetching JSON:', error));
-    }, [characterdetail, chid, elementals])
+    }, [characterdetail])
     return (
         <>
             <Headers />

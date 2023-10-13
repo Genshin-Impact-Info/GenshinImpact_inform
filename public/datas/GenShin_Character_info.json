@@ -13,7 +13,7 @@
                     "detail" : "/images/detail/Mond.png",
                     "affiliation": "/images/menu/affiliation/affiliation_mond.png",
                     "chapter": "/images/menu/chapter/다이루크_운명의자리.png",
-                    "talent": "/images/menu/weapon/Doublehand.png",
+                    "talent": "/images/menu/weapon/양손검.png",
                     "돌파재료" : [
                         {
                             "LV" : "20",
@@ -211,6 +211,9 @@
                     "video" : "/charactervideo/pyro/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_mond.png",
+                    "chapter": "/images/menu/chapter/클레_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -408,6 +411,9 @@
                     "video" : "/charactervideo/pyro/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/호두_운명의자리.png",
+                    "talent": "/images/menu/weapon/창.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -605,6 +611,9 @@
                     "video" : "/charactervideo/pyro/Diluc.mp4",
                     "bg" : "/images/country/Inazuma.png",
                     "detail" : "/images/detail/Inazuma.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/요이미야_운명의자리.png",
+                    "talent": "/images/menu/weapon/활.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -802,6 +811,9 @@
                     "video" : "/charactervideo/pyro/Diluc.mp4",
                     "bg" : "/images/country/Sumeru.png",
                     "detail" : "/images/detail/Sumeru.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/데히야_운명의자리.png",
+                    "talent": "/images/menu/weapon/양손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -999,6 +1011,9 @@
                     "video" : "/charactervideo/pyro/Diluc.mp4",
                     "bg" : "/images/country/Pontain.png",
                     "detail" : "/images/detail/Pontain.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_pontain.png",
+                    "chapter": "/images/menu/chapter/리니_운명의자리.png",
+                    "talent": "/images/menu/weapon/활.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -1201,6 +1216,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_mond.png",
+                    "chapter": "/images/menu/chapter/모나_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -1402,6 +1420,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_fatui.png",
+                    "chapter": "/images/menu/chapter/타르탈리아_운명의자리.png",
+                    "talent": "/images/menu/weapon/마왕무장.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -1599,6 +1620,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Inazuma.png",
                     "detail" : "/images/detail/Inazuma.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/코코미_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -1796,6 +1820,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Inazuma.png",
                     "detail" : "/images/detail/Inazuma.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/아야토_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -1993,6 +2020,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/야란_운명의자리.png",
+                    "talent": "/images/menu/weapon/활.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -2190,6 +2220,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Sumeru2.png",
                     "detail" : "/images/detail/Sumeru2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/닐루_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -2387,6 +2420,9 @@
                     "video" : "/charactervideo/hydro/Diluc.mp4",
                     "bg" : "/images/country/Pontain.png",
                     "detail" : "/images/detail/Pontain.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_pontain.png",
+                    "chapter": "/images/menu/chapter/느비예트_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -2589,6 +2625,9 @@
                     "video" : "/charactervideo/anemo/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_mond.png",
+                    "chapter": "/images/menu/chapter/진_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -2786,6 +2825,9 @@
                     "video" : "/charactervideo/anemo/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_mond.png",
+                    "chapter": "/images/menu/chapter/벤티_운명의자리.png",
+                    "talent": "/images/menu/weapon/활.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -2983,6 +3025,9 @@
                     "video" : "/charactervideo/anemo/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/소_운명의자리.png",
+                    "talent": "/images/menu/weapon/창.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -3180,6 +3225,9 @@
                     "video" : "/charactervideo/anemo/Diluc.mp4",
                     "bg" : "/images/country/Inazuma2.png",
                     "detail" : "/images/detail/Inazuma2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/카즈하_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -3377,6 +3425,9 @@
                     "video" : "/charactervideo/anemo/Diluc.mp4",
                     "bg" : "/images/country/Sumeru2.png",
                     "detail" : "/images/detail/Sumeru2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/방랑자_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -3579,6 +3630,9 @@
                     "video" : "/charactervideo/electro/Diluc.mp4",
                     "bg" : "/images/country/Inazuma2.png",
                     "detail" : "/images/detail/Inazuma2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/라이덴쇼군_운명의자리.png",
+                    "talent": "/images/menu/weapon/창.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -3776,6 +3830,9 @@
                     "video" : "/charactervideo/electro/Diluc.mp4",
                     "bg" : "/images/country/Inazuma.png",
                     "detail" : "/images/detail/Inazuma.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/야에미코_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -3973,6 +4030,9 @@
                     "video" : "/charactervideo/electro/Diluc.mp4",
                     "bg" : "/images/country/Sumeru.png",
                     "detail" : "/images/detail/Sumeru.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/사이노_운명의자리.png",
+                    "talent": "/images/menu/weapon/창.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -4170,6 +4230,9 @@
                     "video" : "/charactervideo/electro/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/각청_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -4372,6 +4435,9 @@
                     "video" : "/charactervideo/dendro/Diluc.mp4",
                     "bg" : "/images/country/Sumeru2.png",
                     "detail" : "/images/detail/Sumeru2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/타이나리_운명의자리.png",
+                    "talent": "/images/menu/weapon/활.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -4569,6 +4635,9 @@
                     "video" : "/charactervideo/dendro/Diluc.mp4",
                     "bg" : "/images/country/Sumeru2.png",
                     "detail" : "/images/detail/Sumeru2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/나히다_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -4766,6 +4835,9 @@
                     "video" : "/charactervideo/dendro/Diluc.mp4",
                     "bg" : "/images/country/Sumeru2.png",
                     "detail" : "/images/detail/Sumeru2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_sumeru.png",
+                    "chapter": "/images/menu/chapter/알하이탐_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -4963,6 +5035,9 @@
                     "video" : "/charactervideo/dendro/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/백출_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -5165,6 +5240,9 @@
                     "video" : "/charactervideo/cryo/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/치치_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -5362,6 +5440,9 @@
                     "video" : "/charactervideo/cryo/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/감우_운명의자리.png",
+                    "talent": "/images/menu/weapon/활.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -5559,6 +5640,9 @@
                     "video" : "/charactervideo/cryo/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_mond.png",
+                    "chapter": "/images/menu/chapter/유라_운명의자리.png",
+                    "talent": "/images/menu/weapon/양손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -5756,6 +5840,9 @@
                     "video" : "/charactervideo/cryo/Diluc.mp4",
                     "bg" : "/images/country/Inazuma2.png",
                     "detail" : "/images/detail/Inazuma2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/아야카_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -5957,6 +6044,9 @@
                     "video" : "/charactervideo/cryo/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/신학_운명의자리.png",
+                    "talent": "/images/menu/weapon/창.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -6154,6 +6244,9 @@
                     "video" : "/charactervideo/cryo/Diluc.mp4",
                     "bg" : "/images/country/Pontain2.png",
                     "detail" : "/images/detail/Pontain2.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_pontain.png",
+                    "chapter": "/images/menu/chapter/라이오슬리_운명의자리.png",
+                    "talent": "/images/menu/weapon/법구.png",
                                         "돌파재료": [
                         {
                             "LV": "20",
@@ -6356,6 +6449,9 @@
                     "video" : "/charactervideo/geo/Diluc.mp4",
                     "bg" : "/images/country/Liwol.png",
                     "detail" : "/images/detail/Liwol.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_liwol.png",
+                    "chapter": "/images/menu/chapter/종려_운명의자리.png",
+                    "talent": "/images/menu/weapon/창.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -6553,6 +6649,9 @@
                     "video" : "/charactervideo/geo/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_mond.png",
+                    "chapter": "/images/menu/chapter/알베도_운명의자리.png",
+                    "talent": "/images/menu/weapon/한손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -6750,6 +6849,9 @@
                     "video" : "/charactervideo/geo/Diluc.mp4",
                     "bg" : "/images/country/Inazuma.png",
                     "detail" : "/images/detail/Inazuma.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/이토_운명의자리.png",
+                    "talent": "/images/menu/weapon/양손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
@@ -6940,13 +7042,16 @@
                     ]
                 },
                 {
-                    "id": "4",
-                    "name" : "나비아",
-                    "text" : "「가시 장미회」",
+                    "id": "3",
+                    "name" : "아라타키 이토",
+                    "text" : "「넘어질 때도 헤어스타일을\n사수하는 게 진짜 사나이지!」",
                     "img" : "/images/characters/geo/이토.png",
                     "video" : "/charactervideo/geo/Diluc.mp4",
                     "bg" : "/images/country/Inazuma.png",
                     "detail" : "/images/detail/Inazuma.png",
+                    "affiliation": "/images/menu/affiliation/affiliation_inazuma.png",
+                    "chapter": "/images/menu/chapter/이토_운명의자리.png",
+                    "talent": "/images/menu/weapon/양손검.png",
                     "돌파재료": [
                         {
                             "LV": "20",
