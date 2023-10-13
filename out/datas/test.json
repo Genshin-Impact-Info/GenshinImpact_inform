@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "img": "/images/characters/pyro/다이루크.png",
+            "text": "「여명이 밝아올 때까지 앞으로 나아갈 거야.」",
+            "bg": "/images/country/Mond.png",
+            "name": "다이루크"
+        },
+        {
+            "id": "2",
+            "img": "/images/characters/pyro/클레.png",
+            "text": "「클레는 나가 놀고 싶어~ 함께 밖에 나가 놀아줘~」",
+            "bg": "/images/country/Mond.png",
+            "name": "클레"
+        },
+        {
+            "id": "3",
+            "img": "/images/characters/pyro/호두.png",
+            "text": "「해가 뜨면 볕을 쬐고, 달이 뜨면 달을 쬐고——!」",
+            "bg": "/images/country/Liwol.png",
+            "name": "호두"
+        },
+        {
+            "id": "4",
+            "img": "/images/characters/pyro/요이미야.png",
+            "text": "「지금 시간 있어?\n나랑 같이 불꽃놀이 하러 가자!\n좀 전에 너에게 보여주고\n싶어서 엄청난 신작을 만들었어!」",
+            "bg": "/images/country/Inazuma.png",
+            "name": "요이미야"
+        },
+        {
+            "id": "5",
+            "img": "/images/characters/pyro/데히야.png",
+            "text": "「용병의 업무원칙? 음… 간단해.\n모라를 제일 많이 내는\n사람을 위해 일하는거야.」",
+            "bg": "/images/country/Sumeru.png",
+            "name": "데히야"
+        },
+        {
+            "id": "6",
+            "img": "/images/characters/pyro/리니.png",
+            "text": "「마술 공연을 시작합니다!\n곧 펼쳐질 놀라운 순간을 기대해 주세요——」",
+            "bg": "/images/country/Pontain.png",
+            "name": "리니"
+        }
+    ],
+    "success": true
+}
