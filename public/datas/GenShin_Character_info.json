@@ -8,7 +8,7 @@
                     "name" : "다이루크",
                     "text" : "「여명이 밝아올 때까지 앞으로 나아갈 거야.」",
                     "img" : "/images/characters/pyro/다이루크.png",
-                    "video" : "/charactervideo/pyro/Diluc.mp4",
+                    "video" : "https://bald-chatter-wrinkle.glitch.me/charactervideo/pyro/Diluc.mp4",
                     "bg" : "/images/country/Mond.png",
                     "detail" : "/images/detail/Mond.png",
                     "affiliation": "/images/menu/affiliation/affiliation_mond.png",

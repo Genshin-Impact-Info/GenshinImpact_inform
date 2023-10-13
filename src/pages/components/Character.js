@@ -10,6 +10,7 @@ export default function Character() {
     const [judge, setJudge] = useState(0);
     function getcharacters(value) {
         setLoadpage(value);
+        // axios.get('https://genshin-impact-info.vercel.app/datas/GenShin_Character_info.json')
         axios.get(`https://pinnate-leeward-legume.glitch.me/genshinAPI/Character_info/preview?ele=${value}`)
             .then((response) => {
                 const Arraydata = response.data;
