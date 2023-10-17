@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    basePath: "/"
+    basePath: "/GenshinImpact_inform",
+    output: 'export',
 }
 
 module.exports = nextConfig;
