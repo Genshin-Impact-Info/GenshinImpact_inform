@@ -5,7 +5,7 @@ export default function Headers() {
     const router = useRouter();
     return (
         <div className={styles.coloring}>
-            <img className={styles.logo} src='/images/logo.png' onClick={() => router.push("/")}></img>
+            <img className={styles.logo} src='images/logo.png' onClick={() => router.push("/")}></img>
             <ul className={styles.selectmenu}>
                 <li className={styles.movemenu} onClick={() => router.push("/components/Character")}><span>Character</span></li>
                 <li className={styles.movemenu}><span>Weapons</span></li>

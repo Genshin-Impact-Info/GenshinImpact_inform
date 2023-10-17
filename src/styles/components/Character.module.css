@@ -50,54 +50,6 @@
     padding: 3rem;
     padding-top: 0;
 };
-.cliwolbackground {
-    z-index: 3;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    width: 90%; 
-    height: 70vh;
-    border-radius: 10px;
-    background-image: url('/images/country/Liwol.png');
-    opacity: 70%;
-    background-size: cover;
-    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
-}
-.cinazumabackground {
-    z-index: 3;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    width: 90%; 
-    height: 70vh;
-    border-radius: 10px;
-    background-image: url('/images/country/Inazuma.png');
-    opacity: 70%;
-    background-size: cover;
-    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
-}
-.csumerubackground {
-    z-index: 3;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    width: 90%; 
-    height: 70vh;
-    border-radius: 10px;
-    background-image: url('/images/country/Sumeru.png');
-    opacity: 70%;
-    background-size: cover;
-    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
-}
-.cpontainbackground {
-    z-index: 3;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    width: 90%; 
-    height: 70vh;
-    border-radius: 10px;
-    background-image: url('/images/country/Pontain.png');
-    opacity: 70%;
-    background-size: cover;
-    box-shadow: 10px 10px 30px 5px rgba(204, 204, 204, 1);
-}
 .somenail {
     width: 50%;
 }

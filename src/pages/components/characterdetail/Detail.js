@@ -30,7 +30,7 @@ export default function Detail(props) {
                 </div>
                 <div className={styles.infobox}>
                     <div name="정보상자" className={styles.moreinfo}>
-                        <img src={'/images/menu/break/break.png'} className={styles.breakimg} onClick={() => breakmodal()}></img>
+                        <img src={'images/menu/break/break.png'} className={styles.breakimg} onClick={() => breakmodal()}></img>
                         <img src={characterdetail.chapter} className={styles.breakimg}></img>
                         <img src={characterdetail.talent} className={styles.breakimg}></img>
                     </div>
