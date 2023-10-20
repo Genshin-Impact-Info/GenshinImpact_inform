@@ -1,5 +1,5 @@
 1:HL["/GenshinImpact_inform/_next/static/css/9ea90a7a7f69d5b7.css",{"as":"style"}]
-0:["HWvHEk0y3TC5KVU1bRUht",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/GenshinImpact_inform/_next/static/css/9ea90a7a7f69d5b7.css","precedence":"next"}]],"$L3"]]]]
+0:["YNiimFp5HOLvs-NWq-Ns7",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/GenshinImpact_inform/_next/static/css/9ea90a7a7f69d5b7.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/GenshinImpact_inform/_next/static/css/3111afe9c69b7340.css",{"as":"style"}]
 5:I{"id":7767,"chunks":["272:static/chunks/webpack-02ec82e703d46b9f.js","971:static/chunks/fd9d1056-6b91f437b4d494b5.js","596:static/chunks/596-a60376b101a8a4a2.js"],"name":"default","async":false}
 6:I{"id":7920,"chunks":["272:static/chunks/webpack-02ec82e703d46b9f.js","971:static/chunks/fd9d1056-6b91f437b4d494b5.js","596:static/chunks/596-a60376b101a8a4a2.js"],"name":"default","async":false}
