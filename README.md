@@ -9,7 +9,7 @@
 ---
 ## 팀원
 #### 김준서 - Web Frontend, Design, JSON 가공된 것 추가/수정
-#### 정현우 - JSON 가공, 배포
+#### 정현우 - JSON 가공, API 배포
 ---
 ## 소개
 

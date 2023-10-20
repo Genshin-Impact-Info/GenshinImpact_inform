@@ -15,6 +15,7 @@ export default function Detail() {
     const [opencharacteristicmodal, setOpencharacteristicmodal] = useState(false);
     const [levels, setLevels] = useState(20);
     const [breakdata, setBreakdata] = useState([]);
+    const [mora, setMora] = useState();
     const [fatedata, setFatedata] = useState([]);
     const [detailfatedata, setDetailfatedata] = useState([]);
     const [characteristicdata, setCharacteristicdata] = useState([]);
@@ -93,6 +94,7 @@ export default function Detail() {
                 const response = await axios.get(`https://pinnate-leeward-legume.glitch.me/genshinAPI/Character_info/view/breakthrough?ele=${element}&id=${id}&level=${value}`);
                 const Breakdata = response.data;
                 setBreakdata(Breakdata.data.items);
+                setMora(Breakdata.data);
                 console.log(breakdata);
             } catch (error) {
                 console.error('Error fetching JSON:', error);
@@ -131,29 +133,29 @@ export default function Detail() {
     return (
         <>
             <Headers />
-            <div className={styles.detailmain}>
-                <img src={characterdetail.detail} className={styles.detailbg}></img>
-                <div className={styles.characterbox}>
-                    <img src={characterdetail.img} className={styles.detailimg}></img>
-                    <p className={styles.detailname1}>{characterdetail.name}</p>
-                    <p className={styles.detailnamebg}>{characterdetail.name}</p>
+            <div className="w-full h-[100vh] flex items-center">
+                <img src={characterdetail.detail} className="absolute w-full h-full bg-no-repeat z-[-1]"></img>
+                <div className="flex w-auto min-w-[30%] h-full justify-center items-center">
+                    <img src={characterdetail.img} className="w-auto h-[80%] pt-28"></img>
+                    <p className="absolute text-[6vw] mt-[65vh] text-[#FF5C00] z-[1]">{characterdetail.name}</p>
+                    <p className="absolute text-[6vw] mt-[66.5vh] ml-[0.75%] drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">{characterdetail.name}</p>
                 </div>
-                <div className={styles.infobox}>
-                    <div name="정보상자" className={styles.moreinfo}>
-                        <img src={'https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/break/break.png'} className={styles.breakimg} onClick={() => breakmodal()}></img>
-                        <img src={characterdetail.chapter} className={styles.breakimg} onClick={() => chaptermodal()}></img>
-                        <img src={characterdetail.talent} className={styles.breakimg} onClick={() => characteristicmodal()}></img>
+                <div className="flex w-[70%] h-full p-8 pt-20 flex-col items-end justify-center">
+                    <div name="정보상자" className="flex w-[80%] h-[20%] pt-4 justify-end items-center">
+                        <img src={'https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/break/break.png'} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => breakmodal()}></img>
+                        <img src={characterdetail.chapter} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => chaptermodal()}></img>
+                        <img src={characterdetail.talent} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => characteristicmodal()}></img>
                     </div>
-                    <div name="소속상자" className={styles.affiliationbox}>
-                        <p className={styles.simpletext}>소속</p>
-                        <img src={characterdetail.affiliation} className={styles.affiliationimg}></img>
+                    <div name="소속상자" className="flex justify-end items-center w-1/2 h-[10%]">
+                        <p className="mr-4 text-[2.3vw] text-white drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">소속</p>
+                        <img src={characterdetail.affiliation} className="w-auto h-[70%] border-0 rounded-2xl bg-[#00bfa5] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer"></img>
                     </div>
-                    <p name="캐릭터 한줄 대사" className={styles.characterline}>{characterdetail.text}</p>
+                    <p name="캐릭터 한줄 대사" className="text-[3vw] -mt-2 mb-20 text-end text-white drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">{characterdetail.text}</p>
                     <video
                         autoPlay={true}
                         muted={true}
                         loop={true}
-                        className={styles.charactervideo}
+                        className="w-1/2"
                         src={characterdetail.video}
                     />
                 </div>

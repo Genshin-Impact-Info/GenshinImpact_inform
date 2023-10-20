@@ -28,14 +28,14 @@
 .detailname1 {
     position: absolute;
     font-size: 6vw;
-    margin-top: 80vh;
+    margin-top: 65vh;
     color: #FF5C00;
     z-index: 1;
 }
 .detailnamebg {
     position: absolute;
     font-size: 6vw;
-    margin-top: 81.5vh;
+    margin-top: 66.5vh;
     margin-left: 0.75%;
     filter: drop-shadow(#000000 0px 0px 25px);
 }

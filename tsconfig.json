@@ -27,7 +27,10 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "src/pages/components/Character.tsx",
+    "src/pages/components/swiperpage/Characterswiper.js",
+    
   ],
   "exclude": [
     "node_modules"
