@@ -1,3 +1,8 @@
+/* styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -27,9 +32,9 @@ a {
   font-family: 'Nexa';
   font-weight: 400;
   font-style: normal;
-  src: url('/fonts/NexaDemo-Bold.otf') format('opentype');
+  src: url('https://bald-chatter-wrinkle.glitch.me/fonts/NexaDemo-Bold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Jamsil'; 
-  src: url('/fonts/The Jamsil OTF 4 Medium.otf') format('opentype');
+  src: url('https://bald-chatter-wrinkle.glitch.me/fonts/The Jamsil OTF 4 Medium.otf') format('opentype');
 }

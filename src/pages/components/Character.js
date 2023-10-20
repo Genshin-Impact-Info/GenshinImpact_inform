@@ -1,4 +1,4 @@
-import Headers from '@/app/Header';
+import Headers from '../../app/Header';
 import styles from '../../styles/components/Character.module.css';
 import { useEffect, useState } from 'react';
 import CharacterSwiper from './swiperpage/Characterswiper';
@@ -29,13 +29,13 @@ export default function Character() {
             <Headers />
             <div className={styles.charactermain}>
                 <div className={styles.selectelement}>
-                    <img src="images/element/Element_Pyro.svg" className={loadpage == '0' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('0')}></img>
-                    <img src="images/element/Element_Hydro.svg" className={loadpage == '1' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('1')}></img>
-                    <img src="images/element/Element_Anemo.svg" className={loadpage == '2' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('2')}></img>
-                    <img src="images/element/Element_Electro.svg" className={loadpage == '3' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('3')}></img>
-                    <img src="images/element/Element_Cryo.svg" className={loadpage == '4' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('4')}></img>
-                    <img src="images/element/Element_Dendro.svg" className={loadpage == '5' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('5')}></img>
-                    <img src="images/element/Element_Geo.svg" className={loadpage == '6' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('6')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Pyro.svg" className={loadpage == '0' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('0')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Hydro.svg" className={loadpage == '1' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('1')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Anemo.svg" className={loadpage == '2' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('2')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Electro.svg" className={loadpage == '3' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('3')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Dendro.svg" className={loadpage == '4' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('4')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Cryo.svg" className={loadpage == '5' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('5')}></img>
+                    <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/element/Element_Geo.svg" className={loadpage == '6' ? styles.selectedelements : styles.elements} onClick={() => getcharacters('6')}></img>
                 </div>
                 <>
                     <CharacterSwiper chdata={chardata} elemental={loadpage} />

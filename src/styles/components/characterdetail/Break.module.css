@@ -1,0 +1,48 @@
+
+
+.turning {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+.turningtext {
+    font-weight: 100;
+    padding-left: 2rem;
+    padding-top: 0rem;
+}
+
+.scrollbox {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    margin-top: 20rem;
+    margin-left: 50%;
+    transform: translateX(
+        -50%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leveltext {
+    color: white;
+    font-size: 2.5rem;
+}
+.slidebar {
+    margin-top: -1rem;
+}
+.ingredients {
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}

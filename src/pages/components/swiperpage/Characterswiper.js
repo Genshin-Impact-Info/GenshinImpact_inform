@@ -1,5 +1,5 @@
-import Headers from '@/app/Header';
-import '@/app/globals.css';
+import Headers from '../../../app/Header';
+import '../../../app/globals.css';
 import styles from '../../../styles/components/Character.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -17,7 +17,7 @@ export default function CharacterSwiper(props) {
         if (jsonData.length != 0) {
             setOpen(true);
         }
-        console.log(open)
+        console.log(open);
     }, [props.chdata, props.elemental]);
     function detailpage(value) {
         router.push({
@@ -48,12 +48,12 @@ export default function CharacterSwiper(props) {
                                             <p className={styles.charactertext}>{item.text}</p>
 
                                         </div>
-                                        <img className={styles.characterdetail} src={'/images/etc/morebutton.png'} onClick={() => detailpage(item.id)}></img>
+                                        <img className={styles.characterdetail} src={'https://genshin-impact-info.github.io/GenshinImpact_inform/images/etc/morebutton.png'} onClick={() => detailpage(item.id)}></img>
                                     </div>
                                 </div>
                             </SwiperSlide>
                         ))
-                    }x
+                    }
                 </Swiper>
                 : null}
         </>
