@@ -6,6 +6,7 @@ import modalstyles from '../../../styles/components/characterdetail/Break.module
 import '../../../app/globals.css';
 import { useRouter } from 'next/router';
 import Slider from '@mui/material/Slider';
+import Loadingpage from '../loading/Loadingpage';
 
 export default function Detail() {
     const router = useRouter();
@@ -20,6 +21,7 @@ export default function Detail() {
     const [detailfatedata, setDetailfatedata] = useState([]);
     const [characteristicdata, setCharacteristicdata] = useState([]);
     const [detailcharacteristicdata, setDetailcharacteristicdata] = useState([]);
+    const [loading, setLoading] = useState(true);
     //슬라이더 레벨 간격
     const marks = [
         {
@@ -96,6 +98,7 @@ export default function Detail() {
                 setBreakdata(Breakdata.data.items);
                 setMora(Breakdata.data);
                 console.log(breakdata);
+
             } catch (error) {
                 console.error('Error fetching JSON:', error);
             }
@@ -128,38 +131,44 @@ export default function Detail() {
 
             //캐릭터 특성 데이터
             fetchData2();
+            setLoading(false);
         }
     }, [characterdetail])
     return (
         <>
             <Headers />
-            <div className="w-full h-[100vh] flex items-center">
-                <img src={characterdetail.detail} className="absolute w-full h-full bg-no-repeat z-[-1]"></img>
-                <div className="flex w-auto min-w-[30%] h-full justify-center items-center">
-                    <img src={characterdetail.img} className="w-auto h-[80%] pt-28"></img>
-                    <p className="absolute text-[6vw] mt-[65vh] text-[#FF5C00] z-[1]">{characterdetail.name}</p>
-                    <p className="absolute text-[6vw] mt-[66.5vh] ml-[0.75%] drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">{characterdetail.name}</p>
-                </div>
-                <div className="flex w-[70%] h-full p-8 pt-20 flex-col items-end justify-center">
-                    <div name="정보상자" className="flex w-[80%] h-[20%] pt-4 justify-end items-center">
-                        <img src={'https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/break/break.png'} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => breakmodal()}></img>
-                        <img src={characterdetail.chapter} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => chaptermodal()}></img>
-                        <img src={characterdetail.talent} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => characteristicmodal()}></img>
+            {
+                loading ? <Loadingpage />
+                    :
+
+                    <div className="w-full h-[100vh] flex items-center">
+                        <img src={characterdetail.detail} className="absolute w-full h-full bg-no-repeat z-[-1]"></img>
+                        <div className="flex w-auto min-w-[30%] h-full justify-center items-center">
+                            <img src={characterdetail.img} className="w-auto h-[80%] pt-28"></img>
+                            <p className="absolute text-[6vw] mt-[65vh] text-[#FF5C00] z-[1]">{characterdetail.name}</p>
+                            <p className="absolute text-[6vw] mt-[66.5vh] ml-[0.75%] drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">{characterdetail.name}</p>
+                        </div>
+                        <div className="flex w-[70%] h-full p-8 pt-20 flex-col items-end justify-center">
+                            <div name="정보상자" className="flex w-[80%] h-[20%] pt-4 justify-end items-center">
+                                <img src={'https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/break/break.png'} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => breakmodal()}></img>
+                                <img src={characterdetail.chapter} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => chaptermodal()}></img>
+                                <img src={characterdetail.talent} className="w-auto ml-12 h-[80%] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer transition-all ease-in-out duration-300 scale-100 hover:scale-110" onClick={() => characteristicmodal()}></img>
+                            </div>
+                            <div name="소속상자" className="flex justify-end items-center w-1/2 h-[10%]">
+                                <p className="mr-4 text-[2.3vw] text-white drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">소속</p>
+                                <img src={characterdetail.affiliation} className="w-auto h-[70%] border-0 rounded-2xl bg-[#00bfa5] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer"></img>
+                            </div>
+                            <p name="캐릭터 한줄 대사" className="text-[3vw] -mt-2 mb-20 text-end text-white drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">{characterdetail.text}</p>
+                            <video
+                                autoPlay={true}
+                                muted={true}
+                                loop={true}
+                                className="w-1/2"
+                                src={characterdetail.video}
+                            />
+                        </div>
                     </div>
-                    <div name="소속상자" className="flex justify-end items-center w-1/2 h-[10%]">
-                        <p className="mr-4 text-[2.3vw] text-white drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">소속</p>
-                        <img src={characterdetail.affiliation} className="w-auto h-[70%] border-0 rounded-2xl bg-[#00bfa5] drop-shadow-[0_0px_10px_rgba(0,0,0,1)] cursor-pointer"></img>
-                    </div>
-                    <p name="캐릭터 한줄 대사" className="text-[3vw] -mt-2 mb-20 text-end text-white drop-shadow-[0_0px_25px_rgba(0,0,0,1)]">{characterdetail.text}</p>
-                    <video
-                        autoPlay={true}
-                        muted={true}
-                        loop={true}
-                        className="w-1/2"
-                        src={characterdetail.video}
-                    />
-                </div>
-            </div>
+            }
             {
                 openbreakmodal ?
                     <div className="absolute inset-0 flex z-50 bg-black bg-opacity-70 backdrop-blur-sm w-full h-full">
@@ -238,8 +247,8 @@ export default function Detail() {
             }
             {
                 opencharacteristicmodal ?
-                <>
-                <div className="absolute inset-0 flex-col z-50 bg-black bg-opacity-70 px-8 backdrop-blur-sm w-full h-full`">
+                    <>
+                        <div className="absolute inset-0 flex-col z-50 bg-black bg-opacity-70 px-8 backdrop-blur-sm w-full h-full`">
                             <div className="w-full h-1/6 flex justify-between items-center pr-12 text-5xl text-white cursor-pointer">
                                 <h2 className="font-thin pl-8 pt-0">특성</h2>
                                 <p onClick={characteristicmodal}>X</p>
@@ -270,8 +279,8 @@ export default function Detail() {
                                 </div>
                             </div>
                         </div>
-                </>
-                : null
+                    </>
+                    : null
             }
         </>
     )

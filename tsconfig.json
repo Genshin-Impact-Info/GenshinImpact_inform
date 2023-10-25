@@ -5,6 +5,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "downlevelIteration": true,
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -29,7 +30,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/pages/components/Character.tsx",
-    "src/pages/components/swiperpage/Characterswiper.js",
+    "src/pages/components/swiperpage/Characterswiper.js", "src/pages/components/Artifacts.js",
     
   ],
   "exclude": [

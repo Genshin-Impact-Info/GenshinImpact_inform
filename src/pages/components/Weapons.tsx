@@ -1,55 +1,27 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '../../app/Header';
 import '../../app/globals.css';
-interface WeaponType {
-  id: number;
-  name: string;
-}
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/swiper-bundle.css';
 export const Weapons: React.FC = () => {
-  const [getid, setGetid] = useState(1);
-  const Weapondata: WeaponType[] = [
-    {
-      id: 1,
-      name: '양손검(대검)'
-    },
-    {
-      id: 2,
-      name: '한손검'
-    },
-    {
-      id: 3,
-      name: '법구'
-    },
-    {
-      id: 4,
-      name: '활'
-    },
-    {
-      id: 5,
-      name: '장병기(창)'
-    },
-  ]
+  const [loadpage, setLoadpage] = useState(0);
   return (
     <>
       <Header />
-      <div className="w-full h-auto min-h-full p-8 pt-40 flex flex-col items-center">
-        <p className="text-black text-3xl mb-12"></p>
-        <div className="flex w-7/12 h-24 items-center text-black text-2xl">
-          {
-            Weapondata.map((data) => (
-              <button key={data.id} className={getid == data.id ? 'cursor-pointer w-5/12 h-16 mr-8 bg-sky-500 text-white flex justify-center items-center rounded-full shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]' : 'cursor-pointer w-5/12 h-16 mr-8 bg-white flex justify-center items-center rounded-full shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]'}
-                 onClick={() => {
-                  setGetid(() => {
-                    return data.id;
-                  })
-                 }}><p>{data.name}</p>
-              </button>
-            ))
-          }
+      <div className="w-full min-h-full flex items-center">
+        <div className="w-2/12 h-full flex justify-between flex-col items-center pt-40">
+          <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/weapon/양손검.png" className={loadpage == 0 ? "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-110 shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]" : "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-100"} onClick={() => setLoadpage(0)}></img>
+          <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/weapon/한손검.png" className={loadpage == 1 ? "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-110 shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]" : "items-center h-24 mt-8 cursor-pointer  bg-black rounded-full transition-all ease-in-out duration-300 scale-100"} onClick={() => setLoadpage(1)}></img>
+          <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/weapon/법구.png" className={loadpage == 2 ? "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-110 shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]" : "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-100"} onClick={() => setLoadpage(2)}></img>
+          <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/weapon/활.png" className={loadpage == 3 ? "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-110 shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]" : "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-100"} onClick={() => setLoadpage(3)}></img>
+          <img src="https://genshin-impact-info.github.io/GenshinImpact_inform/images/menu/weapon/창.png" className={loadpage == 4 ? "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-110 shadow-[0_6px_11px_0px_rgba(0,0,0,0.5)]" : "items-center h-24 mt-8 cursor-pointer bg-black rounded-full transition-all ease-in-out duration-300 scale-100"} onClick={() => setLoadpage(4)}></img>
         </div>
-        <div className="w-full h-auto flex flex-col">
-        </div>
+        <>
+          <Swiper>
+
+          </Swiper>
+        </>
       </div>
     </>
   )

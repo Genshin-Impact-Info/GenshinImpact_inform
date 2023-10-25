@@ -1,0 +1,46 @@
+{
+    "god": [
+        {
+            "name": "벤티",
+            "gnosis": "바람",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        },
+        {
+            "name": "종려",
+            "gnosis": "바위",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        },
+        {
+            "name": "라이덴 쇼군",
+            "gnosis": "번개",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        },
+        {
+            "name": "나히다",
+            "gnosis": "풀",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        },
+        {
+            "name": "푸리나",
+            "gnosis": "물",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        },
+        {
+            "name": "무라타",
+            "gnosis": "불",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        },
+        {
+            "name": "???",
+            "gnosis": "얼음",
+            "profile": "링크",
+            "script": "어쩌고 저쩌고"
+        }
+    ]
+}
